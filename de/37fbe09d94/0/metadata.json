@@ -1,0 +1,31 @@
+{
+  "cli_version": "0.4.5",
+  "checkpoint_id": "de37fbe09d94",
+  "session_id": "6dc8f4a3-ff5f-45c2-b1db-5fe0b163edce",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-23T03:03:18.096238Z",
+  "branch": "main",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "src/app/components/Header.tsx"
+  ],
+  "agent": "Claude Code",
+  "turn_id": "68c7f9cc3867",
+  "token_usage": {
+    "input_tokens": 30,
+    "cache_creation_tokens": 47219,
+    "cache_read_tokens": 644440,
+    "output_tokens": 304,
+    "api_call_count": 18
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-23T03:03:18.071112Z",
+    "agent_lines": 67,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 67,
+    "agent_percentage": 100
+  },
+  "transcript_path": ".claude/projects/-Users-masao-playground-ent/6dc8f4a3-ff5f-45c2-b1db-5fe0b163edce.jsonl"
+}
