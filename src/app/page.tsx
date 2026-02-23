@@ -116,8 +116,56 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer id="contact" className="border-t border-white/10 px-8 py-8 text-center text-sm text-white/50">
-        &copy; 2026 ent — Built with Next.js
+      <footer id="contact" className="border-t border-white/10 bg-black/10 backdrop-blur-sm">
+        <div className="mx-auto max-w-5xl px-8 py-16">
+          <div className="grid gap-12 sm:grid-cols-3">
+            {/* Brand */}
+            <div>
+              <h3 className="text-xl font-bold text-white tracking-tight">ent</h3>
+              <p className="mt-3 text-sm leading-relaxed text-white/50">
+                Next.js + Tailwind CSS で作るモダンWebアプリ。高速で美しい開発体験を。
+              </p>
+            </div>
+
+            {/* Apps */}
+            <div>
+              <h4 className="text-sm font-semibold uppercase tracking-wider text-white/70">Apps</h4>
+              <ul className="mt-3 space-y-2">
+                <li>
+                  <a href="/tetris" className="text-sm text-white/50 transition-colors hover:text-white">Tetris</a>
+                </li>
+                <li>
+                  <a href="/todo" className="text-sm text-white/50 transition-colors hover:text-white">Todo</a>
+                </li>
+                <li>
+                  <a href="/kanban" className="text-sm text-white/50 transition-colors hover:text-white">Kanban</a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Links */}
+            <div>
+              <h4 className="text-sm font-semibold uppercase tracking-wider text-white/70">Links</h4>
+              <ul className="mt-3 space-y-2">
+                <li>
+                  <a href="https://github.com/MASAKASUNO1/ent" target="_blank" rel="noopener noreferrer" className="text-sm text-white/50 transition-colors hover:text-white">GitHub</a>
+                </li>
+                <li>
+                  <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="text-sm text-white/50 transition-colors hover:text-white">Next.js</a>
+                </li>
+                <li>
+                  <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="text-sm text-white/50 transition-colors hover:text-white">Tailwind CSS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Bottom bar */}
+          <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
+            <p className="text-xs text-white/30">&copy; 2026 ent. All rights reserved.</p>
+            <p className="text-xs text-white/30">Built with Next.js &amp; Tailwind CSS</p>
+          </div>
+        </div>
       </footer>
     </div>
   );
