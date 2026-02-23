@@ -6,6 +6,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold text-white tracking-tight">ent</h2>
         <nav className="hidden gap-6 sm:flex">
           <a href="#features" className="text-white/80 hover:text-white transition-colors">Features</a>
+          <a href="/tetris" className="text-white/80 hover:text-white transition-colors">Tetris</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
           <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
         </nav>
@@ -74,6 +75,14 @@ export default function Home() {
               <p className="text-white/70 leading-relaxed">{f.desc}</p>
             </div>
           ))}
+          <a
+            href="/tetris"
+            className="group rounded-2xl bg-white/10 p-8 backdrop-blur-sm transition-all hover:bg-white/20 hover:scale-105"
+          >
+            <div className="mb-4 text-4xl">🎮</div>
+            <h3 className="mb-2 text-xl font-bold text-white">Tetris</h3>
+            <p className="text-white/70 leading-relaxed">ブラウザで遊べるテトリス。息抜きにどうぞ。</p>
+          </a>
         </div>
       </section>
 
