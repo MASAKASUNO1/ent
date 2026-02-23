@@ -1,18 +1,9 @@
+import Header from "./components/Header";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
-      {/* Header */}
-      <header className="flex items-center justify-between px-8 py-6">
-        <h2 className="text-2xl font-bold text-white tracking-tight">ent</h2>
-        <nav className="hidden gap-6 sm:flex">
-          <a href="#features" className="text-white/80 hover:text-white transition-colors">Features</a>
-          <a href="/tetris" className="text-white/80 hover:text-white transition-colors">Tetris</a>
-          <a href="/todo" className="text-white/80 hover:text-white transition-colors">Todo</a>
-          <a href="/kanban" className="text-white/80 hover:text-white transition-colors">Kanban</a>
-          <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
-          <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
-        </nav>
-      </header>
+      <Header />
 
       {/* Hero */}
       <section className="flex flex-col items-center justify-center px-8 pt-24 pb-32 text-center">

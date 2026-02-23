@@ -1,3 +1,4 @@
+import Header from "../components/Header";
 import Kanban from "./Kanban";
 
 export const metadata = {
@@ -8,16 +9,7 @@ export const metadata = {
 export default function KanbanPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
-      <header className="flex items-center justify-between px-8 py-6">
-        <a href="/" className="text-2xl font-bold text-white tracking-tight hover:opacity-80 transition-opacity">
-          ent
-        </a>
-        <nav className="flex gap-6">
-          <a href="/" className="text-white/80 hover:text-white transition-colors">
-            Home
-          </a>
-        </nav>
-      </header>
+      <Header />
 
       <main className="flex flex-col items-center px-4 pb-16 pt-4">
         <h1 className="mb-8 text-4xl font-extrabold text-white sm:text-5xl">
