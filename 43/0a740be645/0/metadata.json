@@ -1,0 +1,33 @@
+{
+  "cli_version": "0.4.5",
+  "checkpoint_id": "430a740be645",
+  "session_id": "fc5b96f3-43ec-4785-ad0b-7dddb4ed3705",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-23T01:46:12.92681Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "src/app/kanban/Kanban.tsx",
+    "src/app/page.tsx"
+  ],
+  "agent": "Claude Code",
+  "turn_id": "d73abbf00af9",
+  "transcript_identifier_at_start": "02341b26-ecff-40b0-84a6-0011a0ea5148",
+  "token_usage": {
+    "input_tokens": 45,
+    "cache_creation_tokens": 37695,
+    "cache_read_tokens": 1308741,
+    "output_tokens": 5719,
+    "api_call_count": 27
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-23T01:46:12.846434Z",
+    "agent_lines": 215,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 215,
+    "agent_percentage": 100
+  },
+  "transcript_path": ".claude/projects/-Users-masao-playground-ent/fc5b96f3-43ec-4785-ad0b-7dddb4ed3705.jsonl"
+}
