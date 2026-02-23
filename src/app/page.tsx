@@ -8,6 +8,7 @@ export default function Home() {
           <a href="#features" className="text-white/80 hover:text-white transition-colors">Features</a>
           <a href="/tetris" className="text-white/80 hover:text-white transition-colors">Tetris</a>
           <a href="/todo" className="text-white/80 hover:text-white transition-colors">Todo</a>
+          <a href="/kanban" className="text-white/80 hover:text-white transition-colors">Kanban</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
           <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
         </nav>
@@ -91,6 +92,14 @@ export default function Home() {
             <div className="mb-4 text-4xl">✅</div>
             <h3 className="mb-2 text-xl font-bold text-white">Todo</h3>
             <p className="text-white/70 leading-relaxed">シンプルなTodoアプリ。データはブラウザに保存。</p>
+          </a>
+          <a
+            href="/kanban"
+            className="group rounded-2xl bg-white/10 p-8 backdrop-blur-sm transition-all hover:bg-white/20 hover:scale-105"
+          >
+            <div className="mb-4 text-4xl">📋</div>
+            <h3 className="mb-2 text-xl font-bold text-white">Kanban</h3>
+            <p className="text-white/70 leading-relaxed">カンバンボードでタスク管理。ドラッグ不要のシンプル操作。</p>
           </a>
         </div>
       </section>
